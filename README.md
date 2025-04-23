@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Create React App으로 시작하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 [Create React App](https://github.com/facebook/create-react-app)으로 부트스트랩되었습니다.
 
-## Available Scripts
+## 사용 가능한 스크립트
 
-In the project directory, you can run:
+프로젝트 디렉터리에서 다음 명령어를 실행할 수 있습니다:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+개발 모드로 앱을 실행합니다.  
+브라우저에서 [http://localhost:3000](http://localhost:3000) 주소를 열어 앱을 확인할 수 있어요.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+코드를 수정하면 페이지가 자동으로 새로고침됩니다.  
+콘솔에서 린트 에러도 확인할 수 있습니다.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+테스트 러너를 인터랙티브한 감시 모드로 실행합니다.  
+자세한 내용은 [테스트 실행하기](https://facebook.github.io/create-react-app/docs/running-tests) 문서를 참고하세요.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+앱을 프로덕션 모드로 빌드하여 `build` 폴더에 생성합니다.  
+React를 최적화된 프로덕션 모드로 번들링하며, 최상의 성능을 위해 파일을 최적화합니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+빌드 결과물은 압축되며, 파일 이름에는 해시가 포함됩니다.  
+앱을 바로 배포할 준비가 된 상태가 됩니다!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+더 자세한 내용은 [배포하기](https://facebook.github.io/create-react-app/docs/deployment) 문서를 참고하세요.
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**주의: 이 작업은 되돌릴 수 없습니다!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+만약 빌드 도구나 설정에 만족하지 않는다면, 언제든지 `eject` 명령어를 사용할 수 있습니다.  
+이 명령어를 실행하면 모든 설정 파일과 의존성이 프로젝트 안으로 복사되어, 원하는 대로 수정할 수 있게 됩니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`eject` 후에도 기존 명령어(`start`, `build`, `test`)는 계속 사용할 수 있지만, 이제는 복사된 스크립트를 참조하게 됩니다.  
+이후에는 모든 설정 관리를 직접 해야 하니 신중히 결정하세요.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+대부분의 프로젝트에서는 `eject`가 필요 없습니다.  
+기본 제공 기능만으로도 충분히 작고 중간 규모의 프로젝트를 잘 운영할 수 있습니다.  
+하지만 고급 사용자에게는 필요한 기능일 수도 있겠죠.
 
-## Learn More
+## 더 알아보기
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Create React App 공식 문서](https://facebook.github.io/create-react-app/docs/getting-started)에서 더 많은 내용을 확인할 수 있어요.
+- [React 공식 문서](https://reactjs.org/)를 통해 React를 더 깊게 배워볼 수 있어요.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 추가 주제
 
-### Code Splitting
+#### 코드 스플리팅
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+링크:  
+[코드 스플리팅](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### 번들 크기 분석하기
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+링크:  
+[번들 크기 분석하기](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+#### 프로그레시브 웹 앱 만들기
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+링크:  
+[PWA 만들기](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### 고급 설정
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+링크:  
+[고급 설정](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+#### 배포하기
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+링크:  
+[배포하기](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+#### `yarn build`가 압축에 실패할 때
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+링크:  
+[빌드 실패 문제 해결](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
